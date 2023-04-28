@@ -108,3 +108,25 @@ function startCounterAnimations() {
 document.addEventListener('DOMContentLoaded', startCounterAnimations);
 
 
+// animation de rebond et scroll
+
+var bulle2 = document.getElementById('bulle2');
+var bulle3 = document.getElementById('bulle3');
+var bulle5 = document.getElementById('bulle5');
+var animationInProgress = {};
+
+var observer = new IntersectionObserver(function (entries, observer) {
+  entries.forEach(function (entry) {
+    if (entry.isIntersecting && !animationInProgress[entry.target.id]) {
+      entry.target.classList.add('active');
+      animationInProgress[entry.target.id] = true;
+    } else if (!entry.isIntersecting && animationInProgress[entry.target.id]) {
+      entry.target.classList.remove('active');
+      delete animationInProgress[entry.target.id];
+    }
+  });
+}, { threshold: 0 });
+
+observer.observe(bulle2);
+observer.observe(bulle3);
+observer.observe(bulle5);

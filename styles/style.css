@@ -1197,6 +1197,36 @@ svg {
   font-weight: 700;
   line-height: 70px;
 }
+/* animation rebond et scroll */
+.hidden {
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.active {
+  opacity: 1;
+  transform: translateY(0);
+  animation: rebond 1s;
+}
+
+@keyframes rebond {
+  0% {
+    transform: translateY(-50px);
+  }
+  25% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  75% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 
 
 /* animation chiffre2 */
@@ -3136,7 +3166,7 @@ form .social_icons i {
   }
 }
 .navigation #logo-maytech {
-  max-width: 230px;
+  max-width: 10vw;
 }
 .navigation.hp-style #logo-maytech {
   -webkit-filter: brightness(0) saturate(100%) invert(100%) sepia(0) saturate(0)
