@@ -242,6 +242,7 @@ svg {
   }
   .offset-md-3 {
     margin-left: 25%;
+    margin-top: 10%;
   }
   .offset-md-4 {
     margin-left: 33.333333%;
@@ -1446,7 +1447,7 @@ h1 {
 .h1 span,
 h1 span {
   color: #ba457d;
-  font-family: Grand Hotel, cursive;
+font-family: 'Shantell Sans', cursive;
   font-size: 70px;
   font-weight: 100;
   line-height: 70px;
@@ -1478,7 +1479,7 @@ h2 span {
 .h2 span,
 h2 span {
   color: #ba457d;
-  font-family: Grand Hotel, cursive;
+font-family: 'Shantell Sans', cursive;
   font-weight: 100;
 }
 @media screen and (max-width: 380px) {
@@ -1945,7 +1946,7 @@ form .social_icons i {
   margin-bottom: 20px;
 }
 .section-blog-single-newsletter .title * span {
-  font-family: Grand Hotel, cursive;
+font-family: 'Shantell Sans', cursive;
   font-size: 30px;
   font-weight: 100;
   letter-spacing: -0.01em;
@@ -3044,7 +3045,7 @@ form .social_icons i {
   left: 0;
   object-fit: cover;
   height: 80%;
-  width: 85%;
+  width: 100%;
   position: absolute;
   top: 0;
 }
@@ -3246,7 +3247,7 @@ form .social_icons i {
 }
 .navigation .top-navigation .items .sub-menu-content .title-sub span {
   color: #ba457d;
-  font-family: Grand Hotel, cursive;
+font-family: 'Shantell Sans', cursive;
   font-size: 30px;
   font-weight: 400;
   line-height: 45px;

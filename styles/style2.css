@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300;1,400;1,500&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 [data-aos][data-aos][data-aos-duration="50"],
@@ -7212,8 +7213,8 @@ p.bold {
   }
 }
 .blog-listing .hero-section .svg-bg-inner {
-  height: 85%;
-  left: 0px;
+  height: 100%;
+  left: 240px;
   margin: auto;
   position: absolute;
   right: 0px;
@@ -7397,7 +7398,7 @@ p.bold {
   }
 }
 .blog-listing .listing-area h2 span::before {
-  background-image: url("https://5289388.fs1.hubspotusercontent-na1.net/hubfs/5289388/website/surlignage.svg");
+  background-image: url("");
   background-position: 50% center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -8001,7 +8002,7 @@ p.bold {
   margin-bottom: 20px;
 }
 .section-bl-newsletter .title * span {
-  font-family: "Grand Hotel", cursive;
+font-family: 'Shantell Sans', cursive;
   font-size: 30px;
   font-weight: 100;
   letter-spacing: -0.01em;
