@@ -8941,6 +8941,21 @@ font-family: 'Shantell Sans', cursive;
   transform: matrix(-1, 0, 0, 1, 0, 0);
   width: 100%;
 }
+/* carousel animation */
+.carousel {
+  display: flex;
+  overflow: hidden;
+}
+
+.carousel img {
+  flex: 0 0 auto;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.carousel img.active {
+  opacity: 1;
+}
 .section-logos .logo-carousel .carousel {
   align-items: center;
   cursor: inherit;
@@ -9380,7 +9395,7 @@ font-family: 'Shantell Sans', cursive;
 }
 .section-home-tarif {
   margin-bottom: 365px;
-  padding-top: 150px;
+  padding-top: 270px;
   position: relative;
 }
 @media screen and (max-width: 767px) {
