@@ -8942,20 +8942,8 @@ font-family: 'Shantell Sans', cursive;
   width: 100%;
 }
 /* carousel animation */
-.carousel {
-  display: flex;
-  overflow: hidden;
-}
 
-.carousel img {
-  flex: 0 0 auto;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-}
-
-.carousel img.active {
-  opacity: 1;
-}
+/* carousel animation fin */
 .section-logos .logo-carousel .carousel {
   align-items: center;
   cursor: inherit;

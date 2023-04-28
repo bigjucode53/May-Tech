@@ -131,20 +131,3 @@ observer.observe(bulle2);
 observer.observe(bulle3);
 observer.observe(bulle5);
 
-// animation carousel
-window.addEventListener('DOMContentLoaded', function () {
-  var carousel = document.getElementById('carousel');
-  var images = carousel.children;
-  var currentIndex = 0;
-  var interval = 2000; // Durée en millisecondes entre chaque transition
-
-  images[currentIndex].classList.add('active');
-
-  function rotateCarousel() {
-    images[currentIndex].classList.remove('active');
-    currentIndex = (currentIndex + 1) % images.length;
-    images[currentIndex].classList.add('active');
-  }
-
-  setInterval(rotateCarousel, interval);
-});
