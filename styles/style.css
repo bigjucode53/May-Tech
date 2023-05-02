@@ -1165,6 +1165,14 @@ svg {
     margin-left: auto !important;
   }
 }
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  margin-right: 2%;
+}
 .text-center {
   text-align: center !important;
 }
