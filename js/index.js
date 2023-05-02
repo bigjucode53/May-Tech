@@ -3,7 +3,7 @@
 var words = [
   "Gérez votre entreprise en 3 clics!",
   "Application sur-mesure! ",
-  "Où prête à l'emploi!",
+  "Ou prête à l'emploi!",
 ];
 var part = "";
 var i = 0;
