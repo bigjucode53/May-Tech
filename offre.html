@@ -223,7 +223,7 @@
                   <div class="title">
                     Notre offre
                     <img
-                      src="https://www.meeko.pro/hubfs/website/arrow-menu-down.svg"
+                      src=""
                       alt=""
                     />
                   </div>
@@ -1489,118 +1489,5 @@
         </div>
       </div>
     </div>
-    <script
-      defer
-      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
-      crossorigin="anonymous"
-    ></script>
-
-    <script>
-      (function () {
-        window.addEventListener("load", function () {
-          setTimeout(function () {
-            var xhr = new XMLHttpRequest();
-            xhr.open("POST", "/_hcms/perf", true /*async*/);
-            xhr.setRequestHeader("Content-type", "application/json");
-            xhr.onreadystatechange = function () {
-              // do nothing.
-            };
-            var connection =
-              navigator.connection ||
-              navigator.mozConnection ||
-              navigator.webkitConnection;
-            function populateNetworkInfo(name, connection, info) {
-              if (name in connection) {
-                info[name] = connection[name];
-              }
-            }
-            var networkInfo = {};
-            if (connection) {
-              ["type", "effectiveType", "downlink", "rtt"].forEach(function (
-                name
-              ) {
-                populateNetworkInfo(name, connection, networkInfo);
-              });
-            }
-            var perfData = {
-              url: location.href,
-              portal: 5289388,
-              content: 59609857054,
-              group: -1,
-              connection: networkInfo,
-              timing: performance.timing,
-            };
-            xhr.send(JSON.stringify(perfData));
-          }, 3000); // Execute this 3 seconds after onload.
-        });
-      })();
-    </script>
-
-    <script>
-      var hsVars = hsVars || {};
-      hsVars["language"] = "fr-fr";
-    </script>
-
-    <script src="/hs/hsstatic/cos-i18n/static-1.53/bundles/project.js"></script>
-    <script
-      defer
-      src="https://www.meeko.pro/hs-fs/hub/5289388/hub_generated/template_assets/55963053860/1678385086273/meeko/js/main.min.js"
-    ></script>
-
-    <!-- Start of HubSpot Analytics Code -->
-    <script type="text/javascript">
-      var _hsq = _hsq || [];
-      _hsq.push(["setContentType", "standard-page"]);
-      _hsq.push([
-        "setCanonicalUrl",
-        "https:\/\/www.meeko.pro\/portail-famille",
-      ]);
-      _hsq.push(["setPageId", "59609857054"]);
-      _hsq.push([
-        "setContentMetadata",
-        {
-          contentPageId: 59609857054,
-          legacyPageId: "59609857054",
-          contentFolderId: null,
-          contentGroupId: null,
-          abTestId: null,
-          languageVariantId: 59609857054,
-          languageCode: "fr-fr",
-        },
-      ]);
-    </script>
-
-    <script
-      type="text/javascript"
-      id="hs-script-loader"
-      async
-      defer
-      src="/hs/scriptloader/5289388.js"
-    ></script>
-    <!-- End of HubSpot Analytics Code -->
-
-    <script type="text/javascript">
-      var hsVars = {
-        ticks: 1681088369649,
-        page_id: 59609857054,
-
-        content_group_id: 0,
-        portal_id: 5289388,
-        app_hs_base_url: "https://app.hubspot.com",
-        cp_hs_base_url: "https://cp.hubspot.com",
-        language: "fr-fr",
-        analytics_page_type: "standard-page",
-        analytics_page_id: "59609857054",
-        category_id: 1,
-        folder_id: 0,
-        is_hubspot_user: false,
-      };
-    </script>
-
-    <script
-      defer
-      src="/hs/hsstatic/HubspotToolsMenu/static-1.154/js/index.js"
-    ></script>
   </body>
 </html>
