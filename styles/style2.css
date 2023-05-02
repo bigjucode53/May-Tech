@@ -8401,6 +8401,8 @@ font-family: 'Shantell Sans', cursive;
 .section-lp-caroussel .container {
   background: #f8982e;
   position: relative;
+  padding-bottom: 2%;
+  margin-bottom: 2%;
 }
 .section-lp-caroussel .container::before {
   background: #f8982e;
@@ -8521,6 +8523,8 @@ font-family: 'Shantell Sans', cursive;
 }
 .section-lp-caroussel .ascensor .right {
   width: 100%;
+  overflow-y: auto;
+  max-height: 400px;
 }
 .section-lp-caroussel .ascensor .right .card {
   background: rgb(255, 255, 255);
