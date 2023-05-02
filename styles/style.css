@@ -1352,7 +1352,7 @@ a.cta_button {
 }
 .section,
 .section-md {
-  padding: 90px 0;
+  padding: 0px 0;
 }
 .section-lg {
   padding: 135px 0;
@@ -2698,9 +2698,9 @@ font-family: 'Shantell Sans', cursive;
 }
 .section-footer {
   background: #fff8f2;
-  margin-top: 0px;
-  padding-bottom: 95px;
-  padding-top: 350px;
+  margin-top: 50px;
+  padding-bottom: 70px;
+  padding-top: 70px;
 }
 .section-footer.reset-padding-top {
   margin-top: 100px !important;
