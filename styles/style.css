@@ -1165,6 +1165,12 @@ svg {
     margin-left: auto !important;
   }
 }
+.flecheposition{
+  position: absolute;
+  width: 50%;
+  bottom: -170px;
+  left: 210px;
+}
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
@@ -3158,6 +3164,8 @@ font-family: 'Shantell Sans', cursive;
   transition: all 0.3s ease;
   width: 100%;
   z-index: 11111;
+  -webkit-backdrop-filter: blur(2px); /* assure la compatibilité avec safari */
+  backdrop-filter: blur(2px);
 }
 @media screen and (max-width: 992px) {
   .navigation {
@@ -3629,11 +3637,11 @@ font-family: 'Shantell Sans', cursive;
 }
 .section-testimonial .author .img-wrapper {
   border-radius: 100%;
-  height: 33px;
+  height: 30px;
   margin-right: 10px;
   overflow: hidden;
   position: relative;
-  width: 33px;
+  width: 10%;
 }
 .section-testimonial .author .name {
   color: #001431;

@@ -6829,8 +6829,8 @@ a.close.disabled {
   color: rgb(255, 255, 255);
 }
 .cta-line-secondary {
-  border-bottom: 2px solid rgb(43, 146, 255);
-  color: rgb(43, 146, 255);
+  border-bottom: 2px solid #f8982e;
+  color: #f8982e;
   font-family: Poppins, sans-serif;
   font-size: 15px;
   font-weight: 600;
@@ -9081,7 +9081,7 @@ font-family: 'Shantell Sans', cursive;
   width: 100%;
 }
 .section-notice .numero {
-  color: rgb(43, 146, 255);
+  color: #f8982e;
   font-size: 20px;
   font-weight: 600;
   letter-spacing: -0.01em;
