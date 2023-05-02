@@ -8723,8 +8723,14 @@ font-family: 'Shantell Sans', cursive;
   }
 }
 
-.section-lp-tabs .tab.active {
+.section-lp-tabs .tab.activeofonglet {
   background: #f8982e;
+}
+.tab-content.activeofonglet {
+  display: block;
+}
+.tab-content {
+  display: none;
 }
 .section-lp-tabs .tab.active img {
   filter: brightness(0) saturate(100%) invert(100%) sepia(0) saturate(0)
