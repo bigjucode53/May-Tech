@@ -7669,9 +7669,9 @@ p.bold {
   text-decoration: none;
 }
 .blog-single-content .fil-arianne a:last-child {
-  background: rgb(218, 236, 255);
+  background: #b8287c04;
   border-radius: 4px;
-  color: rgb(43, 146, 255);
+  color: #f8982e;
   max-width: 100%;
   overflow: hidden;
   padding: 5px;
@@ -7811,14 +7811,14 @@ p.bold {
 }
 .more-articles .inner {
   align-items: center;
-  background: rgb(43, 146, 255);
+  background: #B8287C;
   border-radius: 0px 10px 10px 0px;
   display: flex;
   padding: 45px 0px;
   position: relative;
 }
 .more-articles .inner::before {
-  background: rgb(43, 146, 255);
+  background: #B8287C;
   bottom: 0px;
   content: "";
   left: -999em;
@@ -8716,7 +8716,7 @@ font-family: 'Shantell Sans', cursive;
   }
 }
 .section-lp-tabs .tab .tab-text {
-  color: rgb(0, 20, 49);
+  color: #B8287C;
   font-size: 20px;
   font-weight: 600;
   letter-spacing: -0.01em;
@@ -8729,6 +8729,10 @@ font-family: 'Shantell Sans', cursive;
 
 .section-lp-tabs .tab.activeofonglet {
   background: #f8982e;
+  color: white;
+}
+.section-lp-tabs .tab.activeofonglet *{
+  color: white;
 }
 .tab-content.activeofonglet {
   display: block;
