@@ -1327,7 +1327,10 @@ a.cta_button {
   margin-top: 10%;
   min-height: 96px;
   color: #ba457d;
-  font: 700 normal 4em/1.5 "Poppins", sans-serif;
+  font-family: 'Shantell Sans', cursive;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 75px;
   /* text-shadow: 1px 2px #f8982e, 2px 4px #f8982e, 3px 6px #f8982e, 4px 8px #f8982e, 5px 10px #f8982e, 6px 12px #f8982e, 7px 14px #f8982e, 8px 16px #f8982e, 9px 18px #f8982e, 10px 20px #f8982e; */
 }
 /* animation texte home */
