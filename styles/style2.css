@@ -7229,11 +7229,12 @@ p.bold {
   position: relative;
 }
 .blog-listing .hero-section h1 span::before {
-  background-image: url("");
+  background-image: url("../assets/brush.png");
   background-position: 50% center;
   background-repeat: no-repeat;
   background-size: 100%;
   content: "";
+  z-index: -100;
   height: 55px;
   left: 0px;
   margin: 0px auto;
@@ -7241,7 +7242,7 @@ p.bold {
   right: 0px;
   top: 50%;
   transform: translateY(-50%);
-  width: 77%;
+  width: 100%;
 }
 .blog-listing .hero-section .main-post {
   align-items: center;
@@ -8235,17 +8236,18 @@ font-family: 'Shantell Sans', cursive;
   }
 }
 .dropdown-qa .accordion .title span::before {
-  background-image: url("");
+  background-image: url("../assets/brush.png");
   background-position: 50% center;
   background-repeat: no-repeat;
   background-size: 100%;
   content: "";
   height: 55px;
-  left: 0px;
+  z-index: -100;
+  left: -130px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: 100%;
+  width: 700px;
 }
 .dropdown-qa .accordion .dropdown-container {
   background-color: transparent;
@@ -8934,17 +8936,18 @@ font-family: 'Shantell Sans', cursive;
   }
 }
 .section-logos .title span::before {
-  background-image: url("");
+  background-image: url("../assets/brush.png");
   background-position: 50% center;
   background-repeat: no-repeat;
   background-size: 100%;
   content: "";
+  z-index: -100;
   height: 55px;
-  left: 0px;
+  left: -120px;
   position: absolute;
-  top: 50%;
+  top: 30%;
   transform: translateY(-50%);
-  width: 100%;
+  width: 750px;
 }
 .section-logos .logo-carousel::after {
   content: "";
