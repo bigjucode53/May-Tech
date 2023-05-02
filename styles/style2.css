@@ -8752,6 +8752,8 @@ font-family: 'Shantell Sans', cursive;
 }
 .section-lp-tabs .illustrations-area {
   position: relative;
+  margin-top: 20%;
+  margin-bottom: 20%;
 }
 @media screen and (max-width: 767px) {
   .section-lp-tabs .illustrations-area {
