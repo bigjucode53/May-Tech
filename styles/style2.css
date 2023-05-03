@@ -8698,7 +8698,7 @@ font-family: 'Shantell Sans', cursive;
 }
 .section-lp-tabs .tab {
   align-items: center;
-  background: rgba(186, 69, 125, 0.198);
+  background: #f8962e47;
   border-radius: 8px;
   cursor: pointer;
   display: flex;
@@ -8719,7 +8719,7 @@ font-family: 'Shantell Sans', cursive;
   }
 }
 .section-lp-tabs .tab .tab-text {
-  color: #B8287C;
+  color: black;
   font-size: 20px;
   font-weight: 600;
   letter-spacing: -0.01em;

@@ -1813,6 +1813,7 @@ form .social_icons i {
   background-repeat: no-repeat;
   background-size: 100%;
   content: "";
+  z-index: -100;
   height: 55px;
   left: 0;
   position: absolute;
@@ -3020,17 +3021,19 @@ font-family: 'Shantell Sans', cursive;
   position: relative;
 }
 .section-hero-solutions .text-area h1 span:before {
-  background-image: url();
+  background-image: url(../assets/brush10.png);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 100%;
   content: "";
-  height: 55px;
-  left: 0;
+  z-index: -100;
+  opacity: 70%;
+  height: 190px;
+  left: -50px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: 100%;
+  width: 400px;
 }
 @media screen and (max-width: 767px) {
   .section-hero-solutions .cta-line a {
