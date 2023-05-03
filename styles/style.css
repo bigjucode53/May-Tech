@@ -1165,6 +1165,9 @@ svg {
     margin-left: auto !important;
   }
 }
+#navspeciale {
+  text-decoration: underline 1px;
+}
 #boutonctahero{
   margin: 0 auto;
   display: flex;
