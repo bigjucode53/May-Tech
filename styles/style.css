@@ -3660,6 +3660,7 @@ font-family: 'Shantell Sans', cursive;
 }
 .section-testimonial .quote-inner {
   display: flex;
+  margin-top: 10%;
 }
 @media screen and (max-width: 767px) {
   .section-testimonial .quote-inner {
