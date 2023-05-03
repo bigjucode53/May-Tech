@@ -1165,6 +1165,11 @@ svg {
     margin-left: auto !important;
   }
 }
+#boutonctahero{
+  margin: 0 auto;
+  display: flex;
+  width: max-content;
+}
 #bulle11 {
   position: absolute;
   top: -30px;
@@ -1174,7 +1179,8 @@ svg {
   position: absolute;
   width: 30%;
   bottom: -45px;
-  left: 230px;
+  left: 172px;
+  transform: rotateX(180deg);
 }
 .material-symbols-outlined {
   font-variation-settings:
@@ -1237,7 +1243,26 @@ svg {
     transform: translateY(0);
   }
 }
+/* animation rebond et scroll 2 */
+.hidden2 {
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  opacity: 0;
+  
+}
+.active2 {
+  animation: rebond2 2s;
+  opacity: 1;
+}
 
+@keyframes rebond2 {
+  0% {
+    transform: translateX(700px);
+  }
+  
+  100% {
+    transform: translatex(0);
+  }
+}
 
 /* animation chiffre2 */
 .counter-sec2 {
