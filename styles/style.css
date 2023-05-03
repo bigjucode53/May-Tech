@@ -1290,6 +1290,7 @@ svg {
   padding: 20px;
   color: #ffffff; /* Modification : couleur du texte en blanc */
   text-transform: uppercase;
+  margin-top: 30%;
 }
 
 .box2 i {
