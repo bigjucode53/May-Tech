@@ -1165,11 +1165,16 @@ svg {
     margin-left: auto !important;
   }
 }
+#bulle11 {
+  position: absolute;
+  top: -30px;
+  left: 0px;
+}
 .flecheposition{
   position: absolute;
   width: 30%;
-  bottom: -100px;
-  left: 210px;
+  bottom: -45px;
+  left: 230px;
 }
 .material-symbols-outlined {
   font-variation-settings:
@@ -2959,7 +2964,7 @@ font-family: 'Shantell Sans', cursive;
   padding: 15px 70px 15px 30px;
 }
 .section-hero-solutions {
-  margin-bottom: 365px;
+  margin-bottom: 140px;
   position: relative;
 }
 @media screen and (max-width: 767px) {

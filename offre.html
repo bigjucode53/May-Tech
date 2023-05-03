@@ -12,6 +12,7 @@
     <link rel="canonical" href="#" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script defer src="js/block.js"></script>
+    <script defer src="js/bullenew.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta property="og:image" content="#" />
     <meta http-equiv="content-language" content="fr-fr" />
@@ -297,7 +298,7 @@
                 <div class="row">
                   <div class="col-md-5 col-12">
                     <div class="text-area">
-                      <img class="flecheposition" src="assets/fleche.png" alt="" loading="lazy">
+                      <img class="flecheposition" src="assets/arrow2.png" alt="" loading="lazy">
                       <h1>
                         <span>Votre entreprise mérite</span><br />Une
                         Application qui répond à vos besoins
@@ -320,14 +321,21 @@
                     </div>
                   </div>
                   <div class="offset-md-1 col-md-6 col-12">
-                    <div class="img-wrapper">
+                    <div id="bulle10" class="hidden">
                       <picture>
-                        <source media="(min-width:800px)" srcset="assets/iphonemockup2.png">
+                        <source
+                          media="(min-width: 768px)"
+                          srcset="assets/iphonemockup2.png"
+                        />
                         <img
-                        class=""
-                        src="assets/iphonemockup2.png"
-                        alt=""
-                      />
+                          class=""
+                          src="assets/iphonemockup2.png"
+                          width="710"
+                          height="553"
+                          srcset="assets/homethird.png"
+                          alt="screenshot"
+                          loading="lazy"
+                        />
                       </picture>
                     </div>
                   </div>
@@ -492,22 +500,19 @@
                           />
                         </svg>
 
-                        <div
-                          class="illu-left"
-                          style="top: -30px; left: 0px; width: 520px"
-                        >
+                        <div id="bulle11" class="hidden" >
                           <picture>
                             <source
-                              media="(min-width: 1300px)"
-                              srcset="assets/mockupios2.png"
+                              media="(min-width: 768px)"
+                              srcset="assets/homethird.png"
                             />
                             <img
+                              class=""
                               src="assets/mockupios2.png"
-                              srcset=""
+                              width="600"
+                              height="450"
+                              srcset="assets/mockupios2.png"
                               alt="screenshot"
-                              class="img-fluid w-auto"
-                              width="1000"
-                              height="520"
                               loading="lazy"
                             />
                           </picture>
