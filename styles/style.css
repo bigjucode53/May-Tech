@@ -1165,6 +1165,10 @@ svg {
     margin-left: auto !important;
   }
 }
+.btnbottomtotop{
+  display: flex;
+  justify-content: center;
+}
 #navspeciale {
   text-decoration: underline 1px;
 }
