@@ -1165,6 +1165,15 @@ svg {
     margin-left: auto !important;
   }
 }
+#logomorph {
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+#logomorph.show {
+  opacity: 1;
+}
+
 .btnbottomtotop{
   display: flex;
   justify-content: center;
