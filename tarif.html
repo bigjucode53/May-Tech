@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/style2.css" />
     <link rel="canonical" href="#" />
     <script defer src="js/quest.js"></script>
+    <script defer src="js/bullenew2.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta property="og:image" content="#" />
     <meta http-equiv="content-language" content="fr-fr" />
@@ -322,19 +323,19 @@
                 </div>
 
                 <div class="col-md-7 col-12 offset-0">
-                  <div class="inner-cards">
+                  <div id="bulle20" class="hidden2">
                     <picture>
                       <source
                         media="(min-width: 768px)"
                         srcset="assets/ipadmockup.png"
                       />
                       <img
-                        src="#"
-                        srcset="assets/ipadmockup.png"
-                        alt="photo"
-                        class="img-fluid"
+                        class=""
+                        src="assets/ipadmockup.png"
                         width="500"
-                        height="435"
+                        height="553"
+                        srcset="assets/iphonemockup2.png"
+                        alt="screenshot"
                         loading="lazy"
                       />
                     </picture>
@@ -379,7 +380,7 @@
                 </div>
 
                 <div class="col-md-4 card-inner">
-                  <a href="" class="card">
+                  <span class="card">
                     <div class="up mb-2">
                       <div class="left mr-1">
                         <img src="" class="blue" alt="" />
@@ -479,11 +480,11 @@
                         Lorem.
                       </div>
                     </div>
-                  </a>
+                  </span>
                 </div>
 
                 <div class="col-md-4 card-inner">
-                  <a href="" class="card">
+                  <span class="card">
                     <div class="up mb-2">
                       <div class="left mr-1">
                         <img src="" class="green" alt="" />
@@ -585,11 +586,11 @@
                         Lorem ipsum dolor sit amet consectetur.
                       </div>
                     </div>
-                  </a>
+                  </span>
                 </div>
 
                 <div class="col-md-4 card-inner">
-                  <a href="" class="card">
+                  <span class="card">
                     <div class="up mb-2">
                       <div class="left mr-1">
                         <img src="" class="yellow" alt="" />
@@ -691,11 +692,11 @@
                         Information de contact
                       </div>
                     </div>
-                  </a>
+                  </span>
                 </div>
 
                 <div class="col-md-4 card-inner">
-                  <a href="" class="card">
+                  <span class="card">
                     <div class="up mb-2">
                       <div class="left mr-1">
                         <img src="" class="blue" alt="" />
@@ -797,7 +798,7 @@
                         Lorem, ipsum dolor.
                       </div>
                     </div>
-                  </a>
+                  </span>
                 </div>
               </div>
             </div>
@@ -1264,7 +1265,7 @@
     ></script>
 
     <script type="text/javascript">
-      console.log('hello')
+
       $(document).ready(function(){
         $('.carousel').slick({
           infinite: true,
