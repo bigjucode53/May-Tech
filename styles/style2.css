@@ -7494,8 +7494,8 @@ p.bold {
   margin-top: 10px;
 }
 .blog-listing .listing-area .blog-post-item .link {
-  border-bottom: 2px solid rgb(43, 146, 255);
-  color: rgb(43, 146, 255);
+  border-bottom: 2px solid #B8287C;
+  color: #B8287C;
   display: inline-block;
   font-size: 15px;
   font-weight: 600;
@@ -8077,53 +8077,53 @@ font-family: 'Shantell Sans', cursive;
     text-align: center;
   }
 }
-.section-discover-meeko {
+.section-discover-maytech {
   margin-bottom: 150px;
   margin-top: 175px;
 }
 @media screen and (max-width: 767px) {
-  .section-discover-meeko {
+  .section-discover-maytech {
     margin-bottom: 0px;
     margin-top: 0px;
     overflow: hidden;
   }
 }
-.section-discover-meeko .img-wrapper {
+.section-discover-maytech .img-wrapper {
   height: 525px;
   position: relative;
 }
 @media screen and (max-width: 767px) {
-  .section-discover-meeko .img-wrapper {
+  .section-discover-maytech .img-wrapper {
     height: 300px;
   }
 }
-.section-discover-meeko .img-wrapper img {
+.section-discover-maytech .img-wrapper img {
   background: linear-gradient(
     rgba(0, 20, 49, 0) -47.72%,
     rgba(0, 20, 49, 0.8) 56.71%
   );
   border-radius: 20px;
 }
-.section-discover-meeko .text-area {
+.section-discover-maytech .text-area {
   position: relative;
 }
-.section-discover-meeko .text-area .arrow {
+.section-discover-maytech .text-area .arrow {
   left: 255px;
   position: absolute;
   top: -270px;
 }
 @media screen and (max-width: 767px) {
-  .section-discover-meeko .text-area .arrow {
+  .section-discover-maytech .text-area .arrow {
     display: none;
   }
 }
-.section-discover-meeko .text-area::before {
+.section-discover-maytech .text-area::before {
   border-radius: 8px 0px 0px;
   left: -200px;
   right: 0px;
 }
-.section-discover-meeko .text-area::after,
-.section-discover-meeko .text-area::before {
+.section-discover-maytech .text-area::after,
+.section-discover-maytech .text-area::before {
   background: #fff8f2;
   bottom: -150px;
   content: "";
@@ -8131,20 +8131,20 @@ font-family: 'Shantell Sans', cursive;
   top: -150px;
   z-index: -1;
 }
-.section-discover-meeko .text-area::after {
+.section-discover-maytech .text-area::after {
   right: -999em;
   width: 999em;
 }
-.section-discover-meeko .title {
+.section-discover-maytech .title {
   margin-bottom: 50px;
 }
-.section-discover-meeko .title span {
+.section-discover-maytech .title span {
   font-size: 55px;
   line-height: 74px;
   padding-right: 10px;
   position: relative;
 }
-.section-discover-meeko .title span::before {
+.section-discover-maytech .title span::before {
   background-image: url("");
   background-position: 50% center;
   background-repeat: no-repeat;
@@ -8157,46 +8157,46 @@ font-family: 'Shantell Sans', cursive;
   transform: translateY(-50%);
   width: 100%;
 }
-.section-discover-meeko .line .top img {
+.section-discover-maytech .line .top img {
   max-width: 35px;
 }
-.section-discover-meeko .line .top img.blue {
+.section-discover-maytech .line .top img.blue {
   filter: brightness(0) saturate(100%) invert(71%) sepia(77%) saturate(5748%)
     hue-rotate(192deg) brightness(100%) contrast(101%);
 }
-.section-discover-meeko .line .top img.green {
+.section-discover-maytech .line .top img.green {
   filter: brightness(0) saturate(100%) invert(56%) sepia(38%) saturate(457%)
     hue-rotate(100deg) brightness(88%) contrast(95%);
 }
-.section-discover-meeko .line .top img.yellow {
+.section-discover-maytech .line .top img.yellow {
   filter: brightness(0) saturate(100%) invert(93%) sepia(16%) saturate(1433%)
     hue-rotate(333deg) brightness(99%) contrast(100%);
 }
-.section-discover-meeko .line .top img.pink {
+.section-discover-maytech .line .top img.pink {
   filter: brightness(0) saturate(100%) invert(74%) sepia(14%) saturate(1988%)
     hue-rotate(292deg) brightness(93%) contrast(90%);
 }
-.section-discover-meeko .line .top img.bluenavy {
+.section-discover-maytech .line .top img.bluenavy {
   filter: brightness(0) saturate(100%) invert(7%) sepia(59%) saturate(2296%)
     hue-rotate(197deg) brightness(100%) contrast(105%);
 }
-.section-discover-meeko .line .top img.bluealpha {
+.section-discover-maytech .line .top img.bluealpha {
   filter: brightness(0) saturate(100%) invert(100%) sepia(63%) saturate(2332%)
     hue-rotate(179deg) brightness(108%) contrast(102%);
 }
-.section-discover-meeko .line .top img.greenalpha {
+.section-discover-maytech .line .top img.greenalpha {
   filter: brightness(0) saturate(100%) invert(91%) sepia(0) saturate(6633%)
     hue-rotate(333deg) brightness(119%) contrast(89%);
 }
-.section-discover-meeko .line .top img.yellowalpha {
+.section-discover-maytech .line .top img.yellowalpha {
   filter: brightness(0) saturate(100%) invert(95%) sepia(3%) saturate(1588%)
     hue-rotate(316deg) brightness(99%) contrast(117%);
 }
-.section-discover-meeko .line .top img.pinkalpha {
+.section-discover-maytech .line .top img.pinkalpha {
   filter: brightness(0) saturate(100%) invert(93%) sepia(18%) saturate(685%)
     hue-rotate(236deg) brightness(112%) contrast(97%);
 }
-.section-discover-meeko .line .top span {
+.section-discover-maytech .line .top span {
   color: rgb(0, 20, 49);
   font-size: 20px;
   font-weight: 600;
@@ -8312,7 +8312,7 @@ font-family: 'Shantell Sans', cursive;
   color: rgb(43, 146, 255);
 }
 .dropdown-qa .accordion .dropdown-container.open header::after {
-  content: url("https://go.meeko.pro/hubfs/website/line.svg");
+  content: url("https://go.maytech.pro/hubfs/website/line.svg");
 }
 @media screen and (max-width: 767px) {
   .dropdown-qa .accordion {
@@ -8661,7 +8661,7 @@ font-family: 'Shantell Sans', cursive;
   margin-left: inherit;
   margin-bottom: 50px;
 }
-.section-lp-hero .form-inner .raton-meeko {
+.section-lp-hero .form-inner .raton-maytech {
   left: 0px;
   margin: auto;
   position: absolute;
@@ -9181,15 +9181,15 @@ font-family: 'Shantell Sans', cursive;
     margin-top: 45px;
   }
 }
-.section-pourquoi-hero .svg-inner .meeko-motif-bottom,
-.section-pourquoi-hero .svg-inner .meeko-motif-top {
+.section-pourquoi-hero .svg-inner .maytech-motif-bottom,
+.section-pourquoi-hero .svg-inner .maytech-motif-top {
   position: absolute;
 }
-.section-pourquoi-hero .svg-inner .meeko-motif-top {
+.section-pourquoi-hero .svg-inner .maytech-motif-top {
   left: 16px;
   top: -3px;
 }
-.section-pourquoi-hero .svg-inner .meeko-motif-bottom {
+.section-pourquoi-hero .svg-inner .maytech-motif-bottom {
   bottom: 2px;
   right: -15px;
   transform: rotate(-1deg);
